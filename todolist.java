@@ -12,7 +12,7 @@ Scanner sc = new Scanner (System.in);
 
 System.out.println("To-do list");
 
-boolean flag = true;
+boolean a = true;
 
 String task = "";
 
@@ -52,9 +52,9 @@ case 2:
 System.out.println(" Here are tasks in to-do list are:");
  
 
-for(String t:todo)  
+for(String b:todo)  
 
-System.out.println(t);
+System.out.println(b);
 
 break;
 
@@ -76,13 +76,13 @@ break;
 
 case 4:
 
-flag = false;
+a = false;
 
 System.out.println("Bye!");
 
 }
 
-}while(flag);
+}while(a);
 
   
 
